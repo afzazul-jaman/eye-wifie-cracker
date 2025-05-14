@@ -1,0 +1,30 @@
+# requirements.txt
+PyQt5
+
+# README.md
+# WiFi Hacking Tool GUI (Educational Only)
+
+## Features
+- Monitor Mode
+- WPA Handshake Capture
+- PMKID Attacks
+- Deauthentication
+- WPS Attacks
+- Evil Twin Attack
+- Brute Force Tools
+- Reconnaissance
+- Auto Suites like Fluxion, Wifite
+
+## Setup
+```bash
+sudo apt install aircrack-ng hcxdumptool hashcat reaver bully wifite wifiphisher cowpatty pyrit crunch hydra fluxion fern-wifi-cracker pixiewps kismet wash bettercap ettercap hostapd dnsmasq
+pip3 install -r requirements.txt
+```
+
+## Run GUI
+```bash
+python3 gui/main.py
+```
+
+## ⚠️ Legal Notice
+Use only on networks you own or have permission to test. Unauthorized hacking is illegal.
